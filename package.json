@@ -9,10 +9,14 @@
     "build": "rollup -c && tsc --emitDeclarationOnly"
   },
   "devDependencies": {
+    "@rollup/plugin-alias": "^3.1.2",
     "@rollup/plugin-commonjs": "^17.1.0",
     "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^11.1.1",
+    "@rollup/plugin-replace": "^2.3.4",
     "@typescript-eslint/eslint-plugin": "^4.15.0",
     "@typescript-eslint/parser": "^4.15.0",
+    "alias-hq": "^5.1.6",
     "esbuild": "^0.8.43",
     "eslint": "^7.19.0",
     "eslint-config-prettier": "^7.2.0",
